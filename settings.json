@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite the default settings
+{
+	// Configure glob patterns for excluding files and folders.
+	"files.exclude": {
+		"node_modules": true,
+        "dist": true,
+        "lib": true
+    },
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.icss": "css"
+    },
+    "editor.fontSize": 13.3,
+    "editor.lineHeight": 17,
+    "stylelint.enable": true,
+    "css.validate": false,
+    "editor.renderWhitespace": "none",
+    "vsicons.presets.hideFolders": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.trimTrailingWhitespace": true,
+    "editor.scrollBeyondLastLine": false,
+    "workbench.colorTheme": "Oceanic Next",
+    "editor.minimap.enabled": true,
+
+    "editor.renderIndentGuides": true
+    // "guides.overrideDefault": false,
+    // "guides.active.width": 2,
+
+
+    // "vsicons.associations.files": [
+    //     { "icon": "js", "extensions": ["icss"], "format": "svg" }
+    // ]
+}

@@ -1,0 +1,58 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+k cmd+c",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+shift+up",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus" },
+    {
+        "key": "alt+shift+down",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus" },
+    {
+        "key": "alt+up",
+        "command": "extension.changeCase",
+        "when": "editorTextFocus" },
+    {
+        "key": "alt+up",
+        "command": "extension.increment",
+        "when": "editorTextFocus" },
+    {
+        "key": "alt+down",
+        "command": "extension.decrement",
+        "when": "editorTextFocus" },
+    {
+        "key": "cmd+shift+v",
+        "command": "pasteAndIndent.action",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "subwordNavigation.cursorSubwordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "subwordNavigation.cursorSubwordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "subwordNavigation.cursorSubwordLeftSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "subwordNavigation.cursorSubwordRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+enter",
+        "command": "extension.jumpy-word",
+        "when": "editorTextFocus"
+    }
+]
